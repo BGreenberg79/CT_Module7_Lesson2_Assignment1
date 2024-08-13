@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A lesson about the International Space Station">
+    <meta name="author" content="Benjamin Greenberg">
+    <title>The International Space Station</title>
+</head>
+<body>
+    <header>
+        <h1>Learning about the International Space Station</h1>
+        <p>How countries and their scientists collaborate to learn about outer space</p>
+    </header>
+    <section>
+        <h2>Scientists on the Space Station</h2>
+        <!--Task 1.1 Embed an Educational Image
+        Here inside a section I create a figure element and inside the figure element I use the img tag and figcaption element to properly embed an image of a scientist conductinge experiments in space
+        -->
+        <figure>
+            <img src="https://www.nasa.gov/wp-content/uploads/2023/03/iss064e015250.jpg" alt="A scientist conducts an experiment inside the glovebox on the International Space Station">
+            <figcaption>A scientist conducts a biology experiement inside the Life Science Glovebox aboard the International Space Station</figcaption>
+        </figure>
+    </section>
+    <section>
+        <h2>Astronaut Interview</h2>
+        <!--Task 1.2 Include an Instructional Interview Clip
+        Here is a section with an apropriate header for audio of an interview with an astronaut who has been on the space station, Karen Nyberg.
+        I used an audio element tag, and was sure to include the controls attribute, the source attribute and type attribute. I also included an error message in case the audio fails to load.
+        -->
+        <audio controls>
+            <source src="https://archive.org/details/Expedition36/Expedition-36-37_Crew-Interview_Nyberg.wav" type="audio/wav">
+            Your browser does not support the audio element
+        </audio>
+        <p>Audio of an interview with NASA astronaut Karen Nyberg</p>
+    </section>
+    <section>
+        <h2>Tour of the International Space Station</h2>
+        <!--Task 1.3 Include an Informative Video
+        Included a video tour of the International Space Station with two NASA astronauts 
+        and embedded the video into our webpage using the iframe tag
+        -->
+        <p>Join astronauts NASA Mike Hopkins and Victor Glover for a tour of the International Space Station! Courtesy of NASA and CBS Sunday Morning</p>
+        <iframe width="300" height="150" src="https://www.youtube.com/watch?v=AErpXJq67LM" 
+        frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+        </iframe>
+    </section>
+</body>
+</html>
